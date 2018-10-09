@@ -4,7 +4,7 @@
   border-width: 1px;
 } */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -44,7 +44,7 @@ body {
 #logo span {
   text-transform: uppercase;
   color: #3c3c3c;
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 20px;
   letter-spacing: 1px;
 }
@@ -61,6 +61,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   color: #3c3c3c;
+  font-weight: 600;
   transition: 0.25s;
 }
 
@@ -70,4 +71,10 @@ body {
 
 #links a:hover {
   color: #0FADD4;
+}
+
+#first {
+  background-image: url("https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg");
+  background-image: url("https://s3.amazonaws.com/returnforce/asdfadffafdUntitled.png");
+  background-size: cover;
 }
