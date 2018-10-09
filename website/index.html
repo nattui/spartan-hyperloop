@@ -12,14 +12,25 @@
 </head>
 
 <body>
-  
-  <div id="navigation">
-    <p>Spartan Hyperloop</p>
+
+  <div id="navigation" role="navigation">
+    <div id="logo">
+      <img src="resources/favicon.png" alt="Spartan Hyperloop Logo">
+      <span>Spartan Hyperloop</span>
+    </div>
+
+    <div id="links">
+      <a href="#">People</a>
+      <a href="#">Build</a>
+      <a href="#">About 1</a>
+      <a href="#">About 2</a>
+      <a href="#">About 3</a>
+    </div>
   </div>
 
   <div id="main">
     <div id="fullpage">
-      <div class="section">Example</div>
+      <div class="section" data-percentage="50" data-centered="true">Example</div>
       <div class="section">
         <div class="slide" data-anchor="slide1">Two 1</div>
         <div class="slide" data-anchor="slide2">Two 2</div>
@@ -27,11 +38,11 @@
       <div class="section">Three</div>
       <div class="section">Four</div>
     </div>
-  
+
   </div>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.min.js"></script>
+  <script src="fullpage.js"></script>
   <script src="master.js"></script>
 </body>
 
