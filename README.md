@@ -1,1 +1,1 @@
-# spatan-hyperloop
+# Spartan Hyperloop
