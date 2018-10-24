@@ -77,13 +77,20 @@ body {
 }
 
 #first {
+  text-align: left;
   margin-top: 50px;
   color: white;
   background: url("resources/home.png");
   background-size: cover;
+
 }
 
 #first p {
   width: 500px;
   margin: auto;
+}
+
+#first-title {
+  margin-left: 50px;
+  float: left;
 }
