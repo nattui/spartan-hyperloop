@@ -79,6 +79,7 @@ body {
 #first {
   margin-top: 50px;
   color: white;
+  background: url("resources/home.png");
   background-size: cover;
 }
 
