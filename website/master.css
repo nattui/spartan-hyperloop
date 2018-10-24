@@ -77,7 +77,8 @@ body {
 }
 
 #first {
-
+  margin-top: 50px;
+  color: white;
   background-size: cover;
 }
 
