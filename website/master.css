@@ -82,7 +82,6 @@ body {
   color: white;
   background: url("resources/home.png");
   background-size: cover;
-
 }
 
 #first p {
@@ -90,7 +89,41 @@ body {
   margin: auto;
 }
 
-#first-title {
-  margin-left: 50px;
-  float: left;
+#title {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 35%;
+  background-color: rgba(47, 100, 164, 0.88);
+}
+
+#title div {
+  margin: 0px 7.5% 0px 7.5%;
+}
+
+#title h1 {
+  font-size: 4.8vw;
+  letter-spacing: 4px;
+  margin: 5px;
+}
+
+#title h2 {
+  font-size: 2.8vw;
+  margin: 5px;
+  letter-spacing: 2px;
+}
+
+#title h3 {
+  font-size: 2.2vw;
+  margin: 5px;
+  letter-spacing: 8px;
+  color: #fbd147;
+  font-weight: 450;
+}
+
+#title hr {
+  background-color: #fbd147;
+  border-style: none;
 }
