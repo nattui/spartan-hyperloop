@@ -28,7 +28,6 @@ body {
   justify-content: space-between;
 }
 
-
 #navigation-logo {
   display: flex;
   align-items: center;
@@ -38,11 +37,10 @@ body {
 
 #navigation-logo img {
   height: 45px;
-  margin-right: 10px;
 }
 
 #navigation-logo span {
-  /* font-family: Cabin; */
+  margin-left: 10px;
   text-transform: uppercase;
   color: #3c3c3c;
   font-weight: bolder;
@@ -89,7 +87,7 @@ body {
 }
 
 #title {
-  padding-top: 100px;
+  padding-top: 40px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
