@@ -23,26 +23,25 @@ body {
   height: 100px;
   position: fixed;
   z-index: 1;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 
-#logo {
+#navigation-logo {
   display: flex;
   align-items: center;
   float: left;
   padding-left: 35px;
 }
 
-#logo img {
+#navigation-logo img {
   height: 45px;
   margin-right: 10px;
 }
 
-#logo span {
+#navigation-logo span {
   /* font-family: Cabin; */
   text-transform: uppercase;
   color: #3c3c3c;
@@ -52,14 +51,14 @@ body {
   letter-spacing: 1px;
 }
 
-#links {
+#navigation-links {
   display: flex;
   align-items: center;
   float: right;
   padding-right: 35px;
 }
 
-#links a {
+#navigation-links a {
   padding: 39px 24px 39px 24px;
   text-decoration: none;
   font-size: 18px;
@@ -68,17 +67,17 @@ body {
   transition: 0.25s;
 }
 
-#links a:last-child {
+#navigation-links a:last-child {
   padding: 39px 0px 39px 24px;
 }
 
-#links a:hover {
+#navigation-links a:hover {
   color: #0FADD4;
 }
 
 #first {
   text-align: left;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   color: white;
   background: url("resources/home.png");
   background-size: cover;
@@ -90,6 +89,7 @@ body {
 }
 
 #title {
+  padding-top: 100px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -97,6 +97,7 @@ body {
   height: 100%;
   width: 35%;
   background-color: rgba(47, 100, 164, 0.88);
+  background-position: right;
 }
 
 #title div {
@@ -126,4 +127,10 @@ body {
 #title hr {
   background-color: #fbd147;
   border-style: none;
+}
+
+#weee {
+  position: relative;
+  left: 0px;
+  bottom: 10%;
 }
