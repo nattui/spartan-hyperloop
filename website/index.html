@@ -14,58 +14,57 @@
 <body>
 
   <!-- Navigation Bar -->
-  <div id="navigation" role="navigation">
-    <div id="logo">
-      <img src="resources/favicon.png" alt="Spartan Hyperloop Logo">
+  <div id="navigation">
+    <div id="navigation-logo">
+      <a href="#home">
+        <img src="resources/favicon.png" alt="Spartan Hyperloop Logo">
+      </a>
       <span>Spartan Hyperloop</span>
     </div>
-
-    <div id="links">
-      <a href="index.html#first">Home</a>
-      <a href="index.html#second">Prototypes</a>
-      <a href="#">Team</a>
-      <a href="#">Sponsors</a>
-      <a href="#">Press & Contact</a>
+    <div id="navigation-links">
+      <a href="#home">Home</a>
+      <a href="#prototype">Prototypes</a>
+      <a href="#team">Team</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#press">Press & Contact</a>
     </div>
   </div>
 
-  <div id="main">
- 
-    <div id="fullpage">
+  <div id="fullpage">
 
-      <!-- Home Section -->
-      <div id="first" class="section">
-        <div id="title">
-          <div>
-              <h1>Spartan Hyperloop</h1>
-              <hr width="450" size="8">
-              <h2>San Jose State University</h2>
-              <h3>Thomas Baker</h3>
-              <h3>President 2018</h3>
-          </div>
+    <!-- Home Section -->
+    <div id="first" class="section" data-anchor="home">
+      <div id="title">
+        <div>
+            <h1>Spartan Hyperloop</h1>
+            <!-- <hr width="450" size="8"> -->
+            <h2>San Jose State University</h2>
+            <h3>Thomas Baker</h3>
+            <h3>President 2018</h3>
         </div>
       </div>
-
-      <!-- Prototype Section -->
-      <div id="second" class="section">
-        <!-- TODO: -->
-        <p>Hello</p>
-      </div>
-
-      <div class="section">
-        <div class="slide" data-anchor="slide1">Two 1</div>
-        <div class="slide" data-anchor="slide2">Two 2</div>
-      </div>
-      
-      <div class="section first">Three</div>
-      
-      <div class="section">Four</div>
     </div>
 
+    <!-- TODO: -->
+    <!-- Prototype Section -->
+    <div id="second" class="section" data-anchor="prototype">
+      <p>Prototype</p>
+    </div>
+
+    <!-- Team Section -->
+    <div class="section" data-anchor="team">
+      <div class="slide" data-anchor="slide1">Team</div>
+      <div class="slide" data-anchor="slide2">Two 2</div>
+    </div>
+    
+    <!-- Sponsors Section -->
+    <div class="section" data-anchor="sponsors">Sponsors</div>
+    
+    <!-- Press & Contact Section -->
+    <div class="section" data-anchor="press">Press & Contact</div>
   </div>
 
-
-  <script src="fullpage.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.js"></script>
   <script src="master.js"></script>
 </body>
 
